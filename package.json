@@ -1,0 +1,22 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for D365 implementation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinoburoh/PlayWright-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinoburoh/PlayWright-Automation/issues"
+  },
+  "homepage": "https://github.com/dinoburoh/PlayWright-Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.8"
+  }
+}
