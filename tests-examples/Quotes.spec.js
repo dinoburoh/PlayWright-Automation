@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test')
-const { navigateToApps } = import('/utils/commons.js')
+// const { navigateToApps } = import('/utils/commons.js')
 
 test.describe("Quotes and Order creation", () => {
 
@@ -9,9 +9,9 @@ test.describe("Quotes and Order creation", () => {
     })
 
     test("Create quotes", async ({ page }) => {
-        test.slow()
 
-        
+        test.slow()
+        await page.goto('https://org1e1ce0b9.crm8.dynamics.com/')
 
     })
 })
